@@ -4573,6 +4573,7 @@ div.dataTables_wrapper div.dataTables_info{
 	position: relative;
 	overflow: hidden;
 	z-index: 1;
+	display: none;
 }
 
 .modules-container{
