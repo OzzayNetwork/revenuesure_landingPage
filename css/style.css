@@ -1175,7 +1175,7 @@ section {
     padding: 70px 0 90px;
     color: #fff;
     background-attachment: fixed;
-	padding: 100px 0 120px;
+	padding: 90px 0 90px;
 }
 #summary-container{
 	 background-image:url("../img/bg/bg1.svg");
@@ -1230,9 +1230,9 @@ position: absolute;
     background-color: rgba(37, 34, 34, 0.1);
 }
 #home-one-info .parallax-section:before, .home-one .parallax-section:before,#download.parallax-section:before {
-
-    background: linear-gradient(45deg, rgba(20,169,152,0.7) 0%,rgba(20,169,152,0.7) 42%,rgba(27,171,137,0.7) 54%,rgba(45,177,101,0.7) 74%,rgba(52,179,86,0.7) 84%,rgba(55,180,80,0.7) 90%,rgba(55,180,80,0.7) 100%);
+    background: linear-gradient(45deg, rgba(255,254,254,0.7) 0%,rgba(255,254,254,0.7) 42%,rgba(255,254,254,0.7) 54%,rgba(255,254,254,0.7) 74%,rgba(255,254,254,0.7) 84%,rgba(255,254,254,0.7) 90%,rgba(255,254,254,0.7) 100%);
 	display: none;
+	
 
 }
 
@@ -4641,16 +4641,21 @@ body{
 
 .theiimg2{
 	position: absolute;
-    width: 1390px;
-    /* right: 0px; */
-    bottom: -198px;
-    transform: scale(1.5);
+    /* width: 1390px; */
+    right: 0px;
+    bottom: -78px;
 }
 
 .the-title{
-	color: #38f5f4;
+	color: white;
     z-index: 10000000000;
     position: relative;
+	text-transform: capitalize;
+	font-size: 22px;
+}
+.title-container{
+	padding: 30px;
+    background: #38383873;
 }
 /*for landing page*/
 
