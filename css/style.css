@@ -4660,6 +4660,12 @@ body{
 }
 /*for landing page*/
 
+@media all and (max-width: 768px) { 
+	.title-container{
+		margin: 20px;
+	}
+}
+
 
 
 
